@@ -9,17 +9,5 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.css'
 })
 export class App {
-  name="";
-  displayName="";
-  
-  getName(evt: Event){
-    const name=(evt.target as HTMLInputElement).value;
-  
-    this.name=name;
-    
-  }
-
-  showName(){
-    this.displayName=this.name;
-  }
+  display=true;
 }

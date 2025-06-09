@@ -31,20 +31,16 @@
     font-weight: 15px;
     border: 2px solid blueviolet;
 }
-.search-btn{
-   
+.search-bar button{
     padding: 3px;
     height: 3rem;
     border: 2px solid blueviolet;
-    font-size: 1.5rem;
+    background-color: blue;
     font-weight: 15px;
   
     
 }
-.search-btn i{
-    margin: 2px;
-    padding: 2px;
-}
+
 .navbar .list {
     margin: 0;
     padding: 0;
@@ -56,5 +52,6 @@
     font-style: bold;
 }
 .navbar .list a{
+    cursor: pointer;
     text-decoration: none;
 }

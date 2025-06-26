@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { Seller } from '../services/seller';
-import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 @Component({
   selector: 'app-seller-auth',
-  imports: [FormsModule,HttpClientModule],
+  imports: [FormsModule],
   templateUrl: './seller-auth.html',
   styleUrl: './seller-auth.css'
 })
